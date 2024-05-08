@@ -1,0 +1,108 @@
+:root {
+    --yellow: #e0a80d;
+    --text_gray: #7d8792;
+    --dark_gray: #2b2c2c;
+    --light_gray: #bac8d3;
+    --background: #212222;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Muli', sans-serif;
+  }
+
+html {
+  font-size: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Navbar Start */
+nav {
+  background-color: var(--dark_gray);
+  position: sticky;
+  z-index: 3;
+}
+
+.nav_container {
+  width: 80%;
+  padding: 20px 0;
+  display: flex;
+  margin-inline: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul, li, a {
+  color: var(--text_gray);
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.5rem;
+  gap: 50px;
+}
+/* Navbar Finish */
+
+/* Main Start */
+.main {
+  height: 100vh;
+  text-align: center;
+  background: url("./images/main_bg.png") center center no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.main_container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  text-align: center;
+
+}
+.main_container h2 {
+  font-size: 4.4rem;
+  color: var(--yellow);
+}
+
+}
+.p1 {
+  font-size: 2rem;
+  font-weight: 30rem;
+
+}
+
+.p2 {
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+
+.cv {
+  background: transparant;
+  color: white;
+  border: solid 2px var(--yellow);
+  border-radius: 25px;
+  padding: 10px 15px;
+  justify-content: center;
+  width: 30%;
+  font-size: 1.4rem;
+  margin-inline: auto;
+}
+
+/* Main Finish */
+
+
+/* About Start /*
