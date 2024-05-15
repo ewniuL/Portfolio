@@ -1,49 +1,196 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-  </head>
-  <body>
-    <!-- Navbar Start -->
-    <nav>
-      <div class="nav_container">
-        <div class="logo">
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <nav>
+    <div class="nav_container">
+      <div class="logo">
         <img src="./images/logo.png" alt="logo">
       </div>
-            <ul>
-               <li> <a href="#">Home</a></li>
-               <li> <a href="#">About</a></li>
-               <li> <a href="#">Services</a></li>
-               <li> <a href="#">Portfolio</a></li>
-               <li> <a href="#">Testimonials</a></li>
-               <li> <a href="#">Blog</a></li>
-               <li> <a href="#">Contact</a></li>
-           </ul>
-        </div>
+      <ul>
+        <li> <a href="#">Home</a></li>
+        <li> <a href="#">About</a></li>
+        <li> <a href="#">Services</a></li>
+        <li> <a href="#">Portfolio</a></li>
+        <li> <a href="#">Testimonials</a></li>
+        <li> <a href="#">Blog</a></li>
+        <li> <a href="#">Contact</a></li>
+      </ul>
+    </div>
   </nav>
   <!-- Navbar Finish -->
 
-<!-- Main Start -->
+  <!-- Main Start -->
   <div class="main">
     <div class="main_container">
-    <p class="p1">Hello I'm</p>
-    <h2>WEB DEVELOPER</h2>
-    <p class="p2">Passionate about crafting immersive digital experiences.
-      With a keen eye for detail and a dedication to innovation,
-      I specialize in creating dynamic and user-friendly websites that leave a lasting impression.
-      Let's collaborate to bring your vision to life and elevate your online presence.</p>
-      <a class="cv" href="#">Download CV</a>
+      <p class="p1">Hello I'm</p>
+      <h2>WEB DEVELOPER</h2>
+      <p class="p2">Passionate about crafting immersive digital experiences.
+        With a keen eye for detail and a dedication to innovation,
+        I specialize in creating dynamic and user-friendly websites that leave a lasting impression.
+        Let's collaborate to bring your vision to life and elevate your online presence.</p>
+      <a class="btn" href="#">Download CV</a>
     </div>
   </div>
-<!-- Main Finish -->
+  <!-- Main Finish -->
 
-<!-- About Start -->
-<div class="about">
+  <!-- About Start -->
+  <section class="about">
+    <div class="about_container">
+      <div class="logo_about">
+        <img src="./images/man.png" alt="man">
+      </div>
+      <div class="about_content">
+        <h3 class="header">About Me</h3>
+        <p>Hello! I'm Ali, a software developer with a passion for crafting elegant solutions. I specialize in web
+          development using JavaScript and React framework.
+          I thrive in collaborative environments, where I can contribute my problem-solving skills and attention to
+          detail.</p> <br>
+        <p>My portfolio showcases a range of projects highlighting my dedication to user-centric design and efficient
+          coding practices.
+          I'm committed to staying updated with the latest industry trends and technologies to deliver high-quality
+          results.
+          Let's connect and discuss how we can work together to bring your ideas to life!</p> <br>
+        <div class="about_buttons">
+          <a class="btn" href="#">Download CV</a>
+          <a class="btn" href="#">Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Finish -->
 
-</div>
-  </body>
+  <!-- Services Start -->
+  <section class="services">
+    <h3 class="header">Services</h3>
+    <div class="services_cont">
+      <div class="service_box">
+        <i class="fa fa-cog"></i>
+        <h3>Creative Design</h3>
+        <p>Crafting innovative software solutions, pushing boundaries, turning ideas into impactful digital experiences.
+          Let's collaborate! </p>
+      </div>
+      <div class="service_box">
+        <i class="fa fa-crop"></i>
+        <h3>Clean Code</h3>
+        <p>Developing pristine code: readable, efficient, and scalable for seamless software performance </p>
+      </div>
+      <div class="service_box">
+        <i class="fa fa-cubes"></i>
+        <h3>Responsive Design</h3>
+        <p>Implementing responsive design for seamless user experiences across diverse devices and platforms </p>
+      </div>
+      <div class="service_box">
+        <i class="fa fa-pie-chart"></i>
+        <h3>Bootstrap 4</h3>
+        <p>Utilizing Bootstrap 4 to expedite development, ensuring consistency, and enhancing user interfaces. </p>
+      </div>
+      <div class="service_box">
+        <i class="fa fa-code"></i>
+        <h3>Font Icons</h3>
+        <p>Incorporating font icons to elevate user interfaces, enhancing visual appeal and functionality</p>
+      </div>
+      <div class="service_box">
+        <i class="fa fa-bar-chart"></i>
+        <h3>Awesome Support</h3>
+        <p>Providing exceptional support, ensuring satisfaction, and success throughout the software journey </p>
+      </div>
+
+    </div>
+
+
+  </section>
+  <!-- Services Finish -->
+
+  <!-- Stats Start-->
+  <section class="stats">
+    <div class="stats_cont">
+      <div>
+        <i class="fa-brands fa-skyatlas"></i>
+        <h3 class="header">124</h3>
+        <p>HAPPY CLIENTS</p>
+      </div>
+
+      <div>
+        <i class="fa fa-heart"></i>
+        <h3 class="header">98</h3>
+        <p>PROJECTS COMPLETED</p>
+      </div>
+
+      <div>
+        <i class="fa fa-globe"></i>
+        <h3 class="header">341</h3>
+        <p>FILES DOWNLOADED</p>
+      </div>
+
+      <div>
+        <i class="fa fa-user"></i>
+        <h3 class="header">5946</h3>
+        <p>LINES OF CODE</p>
+      </div>
+    </div>
+  </section>
+  <!-- Stats Finish-->
+
+  <!-- Portfolio start -->
+  <section class="portfolio">
+    <h3 class="header">Portfolio</h3>
+    <div class="portfolio_cat">
+      <p class="active">All</p>
+      <p>Marketing</p>
+      <p>Design</p>
+      <p>Development</p>
+    </div>
+    <div class="portfolio_cont">
+      <div class="port_box">
+        <img src="./images/1.jpg" alt="">
+        <div class="content_cont">
+          <i class="fa-regular fa-eye"></i>
+        </div>
+      </div>
+      <div class="port_box">
+        <img src="./images/2.jpg" alt="">
+        <div class="content_cont">
+          <i class="fa-regular fa-eye"></i>
+        </div>
+      </div>
+      <div class="port_box">
+        <img src="./images/3.jpg" alt="">
+        <div class="content_cont">
+          <i class="fa-regular fa-eye"></i>
+        </div>
+      </div>
+      <div class="port_box">
+        <img src="./images/4.jpg" alt="">
+        <div class="content_cont">
+          <i class="fa-regular fa-eye"></i>
+        </div>
+      </div>
+      <div class="port_box">
+        <img src="./images/5.jpg" alt="">
+        <div class="content_cont">
+          <i class="fa-regular fa-eye"></i>
+        </div>
+      </div>
+      <div class="port_box">
+        <img src="./images/6.jpg" alt="">
+        <div class="content_cont">
+          <i class="fa-regular fa-eye"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio finish -->
+</body>
+
 </html>
