@@ -20,17 +20,27 @@ body {
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
+
 }
+
 
 /* Navbar Start */
 nav {
   background-color: var(--dark_gray);
   position: sticky;
+  top: 0;
+  left: 0;
   z-index: 3;
+  justify-content: space-between;
 }
 
 .nav_container {
@@ -45,12 +55,18 @@ nav {
 ul,
 li,
 a {
-  color: var(--text_gray);
   display: flex;
-  text-decoration: none;
-  list-style-type: none;
+  color: var(--text_gray);
+  gap: 80px;
   font-size: 1.5rem;
-  gap: 50px;
+
+}
+
+
+li,
+a:hover {
+  color: var(--yellow);
+  transition: all 0.3s ease-out;
 }
 
 /* Navbar Finish */
@@ -100,7 +116,7 @@ a {
   color: white;
   border: solid 2px var(--yellow);
   border-radius: 25px;
-  padding: 10px 15px;
+  padding: 10px 25px;
   justify-content: center;
   width: 30%;
   font-size: 1.4rem;
@@ -167,6 +183,7 @@ a {
   background-color: var(--yellow);
 }
 
+
 /*About Finish */
 
 /* Services Start */
@@ -206,6 +223,7 @@ a {
 .services_cont {
   margin-top: 60px;
 }
+
 /* Services Finish */
 
 /* STATS START */
@@ -242,6 +260,7 @@ a {
   color: white;
   font-size: 1.6rem;
 }
+
 /* Stats Finish */
 
 /* Portfolio start */
@@ -318,4 +337,194 @@ a {
 .port_box .content_cont i {
   font-size: 2rem;
 }
+
 /* Portfolio finish */
+
+/* Testimonials Start */
+.testimonials {
+  background: url("./images/testimonials-bg.png") center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 140px 0;
+  margin: 140px 0;
+}
+
+.test_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.test_paragraph {
+  color: white;
+  font-size: 1.6rem;
+  width: 50%;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+.test_cont img:nth-of-type(2) {
+  width: 100px;
+  border: solid 2px var(--yellow);
+  border-radius: 50%;
+  padding: 5px;
+  margin: 20px 0px 20px;
+}
+
+.test_paragraph2 {
+  color: white;
+  font-size: 2rem;
+}
+
+.test_paragraph3 {
+  color: var(--yellow);
+  font-size: 1.5rem;
+
+}
+
+/* Testimonials Finish */
+
+/* Blog Start */
+
+.blogs {
+  display: flex;
+  flex: 1;
+}
+
+.blog_cont {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+  gap: 2rem;
+  margin: 2rem;
+  padding-top: 5rem;
+  border-radius: 3rem;
+
+}
+
+.blog_cont p {
+  color: var(--text_gray);
+  text-align: center;
+}
+
+.blog_cont a:nth-child(2) {
+  color: var(--yellow);
+  font-size: 2.5rem;
+}
+
+.blog_cont p:nth-of-type(1) {
+  color: white;
+  letter-spacing: 1.2px;
+}
+
+/* Blog Finish */
+
+/* Contact Start */
+.contact h3 {
+  margin-top: 5rem;
+}
+
+.contact_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px auto 100px auto;
+  width: 85%;
+  gap: 50px;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80rem;
+}
+
+.form input {
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: var(--dark_gray);
+}
+
+.f_line {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 25px;
+  letter-spacing: 353px;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.send_form {
+  background-color: var(--yellow);
+  font-size: 1.8rem;
+  color: white;
+  padding: 15px 0;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.contact_info {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.contact_info div i {
+  color: var(--yellow);
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.contact_info div p {
+  color: white;
+  font-size: 1.6rem;
+}
+
+/* Contact Finish */
+
+/* Footer Start */
+.footer {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--background);
+}
+
+.footer_cont {
+  display: flex;
+  gap: 40px;
+  color: var(--yellow);
+  margin: 3.1rem;
+
+}
+
+.footer_text {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+
+}
+
+/* Footer Finish */
