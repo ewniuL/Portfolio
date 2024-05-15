@@ -12,19 +12,20 @@
 
 <body>
   <!-- Navbar Start -->
+  <a name="aHome"></a>
   <nav>
     <div class="nav_container">
       <div class="logo">
         <img src="./images/logo.png" alt="logo">
       </div>
       <ul>
-        <li> <a href="#">Home</a></li>
-        <li> <a href="#">About</a></li>
-        <li> <a href="#">Services</a></li>
-        <li> <a href="#">Portfolio</a></li>
-        <li> <a href="#">Testimonials</a></li>
-        <li> <a href="#">Blog</a></li>
-        <li> <a href="#">Contact</a></li>
+        <li> <a href="#aHome">Home</a></li>
+        <li> <a href="#aAbout">About</a></li>
+        <li> <a href="#aServices">Services</a></li>
+        <li> <a href="#aPortfolio">Portfolio</a></li>
+        <li> <a href="#aTestimonials">Testimonials</a></li>
+        <li> <a href="#aBlog">Blog</a></li>
+        <li> <a href="#aContact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -45,6 +46,7 @@
   <!-- Main Finish -->
 
   <!-- About Start -->
+  <a name="aAbout"></a>
   <section class="about">
     <div class="about_container">
       <div class="logo_about">
@@ -71,6 +73,7 @@
   <!-- About Finish -->
 
   <!-- Services Start -->
+  <a name="aServices"></a>
   <section class="services">
     <h3 class="header">Services</h3>
     <div class="services_cont">
@@ -105,10 +108,7 @@
         <h3>Awesome Support</h3>
         <p>Providing exceptional support, ensuring satisfaction, and success throughout the software journey </p>
       </div>
-
     </div>
-
-
   </section>
   <!-- Services Finish -->
 
@@ -143,6 +143,7 @@
   <!-- Stats Finish-->
 
   <!-- Portfolio start -->
+  <a name="aPortfolio"></a>
   <section class="portfolio">
     <h3 class="header">Portfolio</h3>
     <div class="portfolio_cat">
@@ -191,6 +192,108 @@
     </div>
   </section>
   <!-- Portfolio finish -->
+
+  <!-- Testimonials Start -->
+  <a name="aTestimonials"></a>
+  <section class="testimonials">
+    <h3 class="header">Testimonials</h3>
+    <div class="test_cont">
+      <img src="./images/testimonials.png" alt="">
+      <p class="test_paragraph">This software transformed the way we work. It's intuitive, powerful, and incredibly
+        efficient. -John D. <br>
+        I can't imagine managing my projects without this software. It's a game-changer!<br> -Emily S.</p>
+      <img src="./images/team.png" alt="">
+      <p class="test_paragraph2">Ali Y.</p>
+      <p class="test_paragraph3"> Front End Developer</p>
+    </div>
+  </section>
+  <!-- Testimonials Finish -->
+
+  <!-- Blog Start -->
+  <a name="aBlog"></a>
+  <section class="blog">
+    <h3 class="header">Our Blog</h3>
+    <div class="blogs">
+      <div class="blog_cont">
+        <div> <img src="./images/1.png" alt=""> </div>
+        <a href="#">Master These Awesome</a>
+        <p>By Daniel Outis, July 21, 2020 </p>
+        <p>Unlock the secrets to mastering productivity with these awesome tips and tricks today!</p>
+      </div>
+
+      <div class="blog_cont">
+        <div> <img src="./images/2.png" alt=""> </div>
+        <a href="#">Best Design Items to Appeal</a>
+        <p>By Lara Queen, August 21, 2023</p>
+        <p>In this blog, you'll find the most appealing design items that stand out from the crowd</p>
+      </div>
+
+      <div class="blog_cont">
+        <div> <img src="./images/3.png" alt=""> </div>
+        <a href="">The 20 Best Lightroom Presets</a>
+        <p>By Mia Gosling, January 5, 2019</p>
+        <p>In this blog, discover the 20 best Lightroom presets that will elevate your photography to the next level</p>
+        <br>
+      </div>
+    </div>
+  </section>
+  <!-- Blog Finish -->
+
+  <!-- Contact Start -->
+  <a name="aContact"></a>
+  <section class="contact">
+    <h3 class="header">Keep In Touch</h3>
+    <div class="contact_cont">
+
+
+
+      <div class="form">
+        <div class="f_line">
+          <input type="text" name="name" id="name" placeholder="Name">
+          <input type="text" name="email" id="email" placeholder="Email">
+        </div>
+        <input type="text" name="subject" placeholder="Subject">
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+        <button class="send_form" onClick="alert('Your message has been sent.');">Send Now!</button>
+
+
+      </div>
+      <div class="contact_info">
+        <div>
+          <i class="fa-solid fa-location-dot"></i>
+          <p>251 Main Street, Suit 11
+            <br>
+            Seattle, WA, 9101
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <p>0123456789 </p>
+        </div>
+        <div>
+          <i class="fa fa-at"></i>
+          <p>hello@portfolio.com <br> info@portfolio.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Finish -->
+
+  <!-- Footer Start -->
+  <div class="footer">
+    <div class="footer_cont">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-dribbble"></i>
+    </div>
+
+    <div class="footer_text">
+      <p>Copyright &copy; 2024 All Rights Reserved</p>
+    </div>
+  </div>
+  <!--Footer Finish -->
+
 </body>
 
 </html>
